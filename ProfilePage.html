@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
+
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="Profile page about Zugravu Liudmila" />
@@ -9,9 +11,21 @@
     </head>
     <body>
         <h1>Profile Page</h1>
-        <img src="D:\IntershipAmdaris\AmdarisProject\images\personal-photo.jpg" alt="personal-photo" width="200" height="200"/>
-        
-        <h2>About Me</h2>
+        <div id="wrapper">
+            <img id="profile-image" src="D:\IntershipAmdaris\AmdarisProject\images\personal-photo.jpg" alt="personal-photo"/>
+        </div>
+        <img id="png-cipher" src="D:\IntershipAmdaris\AmdarisProject\images\cipher.png" alt="png-cipher"/>
+
+        <h2>My Favorites</h2>
+        <div class="flex-container">
+            <div style="order: 2;"><img id="coffee" src="D:\IntershipAmdaris\AmdarisProject\images\coffee.jpg" alt="coffee"/></div>
+            <div><img id="cat" src="D:\IntershipAmdaris\AmdarisProject\images\cats.jpg" alt="cats"/></div>
+            <div style="order: 0;"><img id="games" src="D:\IntershipAmdaris\AmdarisProject\images\games.jpg" alt="games-photo"/></div>
+            <div style="order: 1;"><img id="music" src="D:\IntershipAmdaris\AmdarisProject\images\music.jpg" alt="music"/></div>
+            
+        </div>
+
+        <h2 id="about-me">About Me</h2>
         <p>My name is <strong>Liudmila Zugravu</strong>, I am <i>18</i> years old, and my passion is 
         <mark style="background-color: #8095D9;">programming</mark>.
          I am a <span style="color: #B7410E;">red-haired</span> girl with brown eyes. 
@@ -22,7 +36,7 @@
          laugh and joke a lot if I feel comfortable.</p>
         <hr>
         
-        <h2>Skills & Interests</h2>
+        <h2 id="interests-skills">Skills & Interests</h2>
         <ul>
             <li>Programming Languages
                 <ol type="1">
