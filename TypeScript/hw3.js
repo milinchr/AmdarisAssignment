@@ -88,4 +88,32 @@ samsung.hasTouchScreen = true;
 console.log(samsung.hasTouchScreen);
 console.log("\n" + samsung.info());
 console.log(tuf.info());
+class Animal {
+    name;
+    color;
+    constructor(name, color) {
+        this.name = name;
+        this.color = name;
+    }
+}
+class Dog extends Animal {
+    constructor(name, color) {
+        super(name, color);
+    }
+    sound() {
+        return "Woof!";
+    }
+}
+class Cat extends Animal {
+    constructor(name, color) {
+        super(name, color);
+    }
+    sound() {
+        return "Meow!";
+    }
+}
+const cat = new Cat("Lucy", "ginger");
+const dog = new Dog("Robert", "golden");
+console.log("\n" + cat.sound());
+console.log(dog.sound());
 //# sourceMappingURL=hw3.js.map

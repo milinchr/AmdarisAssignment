@@ -116,3 +116,41 @@ console.log(samsung.hasTouchScreen);
 
 console.log("\n"+samsung.info());
 console.log(tuf.info());
+
+abstract class Animal{
+    name : string;
+    color : string;
+
+    constructor(name : string, color : string){
+        this.name = name;
+        this.color = name;
+    }
+
+    abstract sound() : string;
+}
+
+class Dog extends Animal{
+    constructor(name : string, color : string){
+        super(name,color);
+    }
+
+    sound(): string {
+        return "Woof!";
+    }
+}
+
+class Cat extends Animal{
+    constructor(name : string, color : string){
+        super(name,color);
+    }
+
+    sound(): string {
+        return "Meow!";
+    }
+}
+
+const cat = new Cat("Lucy","ginger");
+const dog = new Dog("Robert","golden");
+
+console.log("\n"+cat.sound());
+console.log(dog.sound());
