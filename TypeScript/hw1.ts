@@ -1,3 +1,5 @@
+// Homework 1
+
 // Task 1
 var age : number = 18;
 var name : string = "Liudmila";
@@ -38,9 +40,9 @@ if(personAge > 18){
 }
 
 // Task 5
-var anyStr : any = "Education";
-var toStr = anyStr as string;
-console.log("\n"+toStr.length);
+var anyStr : any = "123";
+var toStr = anyStr as number;
+console.log("\n"+toStr*2);
 
 // Task 6
 var mixedArray = [2,"Hello",3,"Bye"];

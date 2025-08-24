@@ -1,4 +1,5 @@
 "use strict";
+// Homework 1
 Object.defineProperty(exports, "__esModule", { value: true });
 // Task 1
 var age = 18;
@@ -34,9 +35,9 @@ else {
     console.log("You are a teenager!");
 }
 // Task 5
-var anyStr = "Education";
+var anyStr = "123";
 var toStr = anyStr;
-console.log("\n" + toStr.length);
+console.log("\n" + toStr * 2);
 // Task 6
 var mixedArray = [2, "Hello", 3, "Bye"];
 var sum = 0;
@@ -46,4 +47,4 @@ for (i = 0; i < mixedArray.length; i++) {
     }
 }
 console.log("\n" + sum);
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=hw1.js.map
