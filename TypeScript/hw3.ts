@@ -123,7 +123,7 @@ abstract class Animal{
 
     constructor(name : string, color : string){
         this.name = name;
-        this.color = name;
+        this.color = color;
     }
 
     abstract sound() : string;

@@ -67,3 +67,13 @@ console.log();
 
 console.log("Is array \"numbers\" empty?",isArrayEmpty(numbers));
 console.log("Is array \"array\" empty?",isArrayEmpty(array));
+
+// function someMethod<T>(property : T) : T{
+//     return property;
+// }
+
+// const c : string = "Hello World";
+// const num : number = 123;
+// const a = someMethod(c);
+// const b = someMethod(num);
+// a.
